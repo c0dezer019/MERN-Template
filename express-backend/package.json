@@ -1,8 +1,7 @@
 {
   "name": "express-backend",
   "version": "1.0.0",
-  "private": true,
-  "description": "",
+  "description": "A template providing a bare-bones Express backend with Mongodb.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
