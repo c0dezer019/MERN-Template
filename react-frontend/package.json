@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": "",
+  "author": "Brian Blankenship",
+  "scripts": {
+    "start": "webpack serve --mode=development --open --hot",
+    "build": "webpack --mode=production",
+    "test:unit": "mocha --require tests/tsconfig.json --require ignore-styles"
+  },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
